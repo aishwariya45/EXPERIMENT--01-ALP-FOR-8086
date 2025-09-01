@@ -1,11 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :S.AISHWARIYA
-Roll no :212224240005
-Date of experiment :01:09:2025
+**Name :RESHMA R**
 
+**Roll no: 212224040274**
 
-
-
+**Date of experiment :22.08.2025**
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
@@ -79,36 +77,105 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 ```
-MOV AL, 20H;
+MOV AL, 53H;
 
 MOV BL, 24H;
 
 ADD AL,BL;
 
+HLT
 ```
 
 ## Output  
-
- ![Uploading Screenshot 2025-09-01 105602.png…]()
+ <img width="1920" height="1080" alt="Screenshot 2025-08-19 142603" src="https://github.com/user-attachments/assets/6dcf52ee-3214-4c8b-971c-4171666c8531" />
 
 ## Subtraction   of 8 bit numbers  ALP 
+ ``` MOV AL, 53H;
+ 
+ MOV BL,24H;
+ 
+ SUB AL,BL;
+ 
+ HLT
  ```
+## Output
+<img width="1920" height="1080" alt="Screenshot 2025-08-19 142905" src="https://github.com/user-attachments/assets/564319f2-b481-423b-a645-9cd905bfd4e6" />
 
+## Multiplication alp
+``` MOV AL, 53H;
 
+MOV BL, 24H;
 
+MUL BL;
+
+HLT
 ```
-## Output  
-## Multiplication alp 
  ## Output  
 
+<img width="1920" height="1080" alt="Screenshot 2025-08-19 143052" src="https://github.com/user-attachments/assets/9bb9fe93-024d-410e-bc1d-1bdd989bfba5" />
 
 ## Division alp 
+``` MOV AL, 53H;
 
+MOV BL, 24H;
+
+DIV BL;
+
+HLT
+```
 ## Output  
+<img width="1920" height="1080" alt="Screenshot 2025-08-19 143216" src="https://github.com/user-attachments/assets/b06fad69-50cf-40c8-9cc7-c62e7bdc6f04" />
+ 
+## AND
+```MOV AL, 53H;
 
+MOV BL, 24H;
+
+AND AL,BL;
+
+HLT
+```
+## Output 
+<img width="1920" height="1080" alt="Screenshot 2025-08-19 143356" src="https://github.com/user-attachments/assets/46a2fcfc-1440-49de-a812-b8ad490578c9" />
+## OR
+``` MOV AL, 53H;
+
+MOV BL, 24H;
+
+OR AL, BL;
+
+HLT
+```
+## Output
+<img width="1920" height="1080" alt="Screenshot 2025-08-19 143356" src="https://github.com/user-attachments/assets/b4f3ff36-b3a4-427e-ac8a-dfb022fae042" />
+
+## NOT
+``` MOV AL, 53H;
+
+MOV BL, 24H;
+
+NOT AL;
+
+HLT
+```
+## OUTPUT
+<img width="1920" height="1080" alt="Screenshot 2025-08-19 143442" src="https://github.com/user-attachments/assets/19132857-2066-4b5a-b711-a681485b36d5" />
+
+## EX-OR
+```
+MOV AL, 53H;
+
+MOV BL, 24H;
+
+XOR AL, BL;
+
+HLT
+```
+## OUTPUT
+<img width="1920" height="1080" alt="Screenshot 2025-08-19 143544" src="https://github.com/user-attachments/assets/b9770076-e0e7-4cd3-93e0-87a7e9502b29" />
 
 ## Result :
- 
+ Thus ,ALP for fundamental arithmetic and logical operations are executed successfully.
 
 
 
