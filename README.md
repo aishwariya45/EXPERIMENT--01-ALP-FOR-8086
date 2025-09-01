@@ -1,9 +1,9 @@
 # EXPERIMENT--01-ALP-FOR-8086
-**Name :RESHMA R**
+## Name :S.AISHWARIYA
 
-**Roll no: 212224040274**
+## Roll no: 212224240005
 
-**Date of experiment :22.08.2025**
+## Date of experiment :01.09.2025
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
 ## Components required: 8086  emulator 
